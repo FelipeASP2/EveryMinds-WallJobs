@@ -1,0 +1,10 @@
+.Title {
+  background-color: #8b0000;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: white; /* Set text color to white */
+  text-shadow: 2px 2px 4px black; /* Apply shadow effect */
+}

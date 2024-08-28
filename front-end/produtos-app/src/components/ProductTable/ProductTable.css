@@ -1,0 +1,71 @@
+/* Outline the table itself */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Outline each cell */
+table td,
+table th {
+  border: 1px solid black;
+}
+
+/* Remove the right border of all cells in the last column */
+table td:last-child,
+table th:last-child {
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: 1px solid black; /* Apply left border to last column cells */
+}
+
+.table-container {
+  width: 1000px; /* Adjust to the width of the table */
+  margin: 0 auto; /* Center the container horizontally */
+  padding-top: 60px;
+}
+
+/* Specific styles for "editar" button */
+button.editar {
+  cursor: pointer;
+  margin-right: 6px; /* Add space to the right of each button */
+  margin-left: 6px; /* Add space to the right of each button */
+  font-size: 14px; /* Adjust font size as needed */
+  border-radius: 4px; /* Optional: adds rounded corners */
+  border: 2px solid; /* Set border width */
+  background-color: #f5f5f5; /* Light Grayish White */
+  border-color: blue; /* Blue border */
+  color: blue; /* Blue text */
+}
+
+/* Specific styles for "deletar" button */
+button.deletar {
+  cursor: pointer;
+  font-size: 14px; /* Adjust font size as needed */
+  border-radius: 4px; /* Optional: adds rounded corners */
+  border: 2px solid; /* Set border width */
+  background-color: #f5f5f5; /* Light Grayish White */
+  border-color: red; /* Red border */
+  color: red; /* Red text */
+}
+
+button.post {
+  cursor: pointer;
+  font-size: 14px; /* Adjust font size as needed */
+  border-radius: 4px; /* Optional: adds rounded corners */
+  border: 2px solid; /* Set border width */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f5f5f5; /* Light Grayish White */
+  border-color: #0bda51;
+  color: #0bda51; /* Red text */
+}
+
+input {
+  padding: 8px; /* Increase the padding to make input boxes taller */
+  border-radius: 8px; /* Rounded edges for the input boxes */
+  border: 1px solid #ccc; /* Light border color */
+  margin-right: 3px; /* Space between input boxes */
+  width: 20%; /* Adjust width to account for padding */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
