@@ -4,8 +4,8 @@ from mysql.connector import errorcode
 # Configuração da conexão com o MySQL (sem especificar o banco de dados)
 db_config = {
     'host': 'localhost',
-    'user': 'root',        # Substitua pelo seu usuário MySQL
-    'password': '123mysql%%',      # Substitua pela sua senha MySQL
+    'user': '',        # Substitua pelo seu usuário MySQL
+    'password': '',      # Substitua pela sua senha MySQL
 }
 
 def criar_banco_e_tabela():
